@@ -1,0 +1,62 @@
+.chat-container {
+    width: 30vw;
+    height: 70vh;
+    border-radius: 2% 2% 0% 0%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* top-left corner,  top-right corner, 
+   bottom-right corner, bottom-left corner */
+    overflow-x: auto;
+}
+
+.chat-send path {
+    color: white;
+}
+
+.chat-send {
+    width: 30vw;
+}
+
+.chat-send input {
+    padding: 12px 0 12px 14px;
+}
+
+.you {
+    background-color: #0E71EB;
+    color: white;
+}
+
+.other {
+    background-color: white;
+    color: black;
+}
+
+.bubble {
+    position: relative;
+    border-radius: 5px;
+    padding: 1.3vh;
+    min-width: 20px;
+}
+
+.bubble:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    top: 50%;
+    margin-top: -7.5px;
+}
+
+.bubble-left:after {
+    border-width: 0 0 15px 15px;
+    left: -15px;
+    border-color: transparent transparent #ffffff transparent;
+
+}
+
+.bubble-right:after {
+    border-width: 15px 0 0 15px;
+    right: -15px;
+    border-color: transparent transparent transparent #0E71EB;
+}

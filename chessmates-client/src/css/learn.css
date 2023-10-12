@@ -1,0 +1,37 @@
+.learn-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.learn-text {
+    width: 35vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.puzzles-text {
+    width: 30vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.puzzle-number {
+    margin-top: 3.5vh;
+    width: 30vw;
+    background-color: #0E71EB;
+    display: flex;
+    justify-content: center;
+}
+
+.instructions {
+    margin-top: 3vh;
+}
